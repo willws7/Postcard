@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE40BC3119D0510D0010EDF4 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE40BC3019D0510D0010EDF4 /* AlbertEinsteinStamp.jpg */; };
 		EE764C1C19CFD5F0006709CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE764C1B19CFD5F0006709CB /* AppDelegate.swift */; };
 		EE764C1E19CFD5F0006709CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE764C1D19CFD5F0006709CB /* ViewController.swift */; };
 		EE764C2119CFD5F0006709CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE764C1F19CFD5F0006709CB /* Main.storyboard */; };
 		EE764C2319CFD5F0006709CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE764C2219CFD5F0006709CB /* Images.xcassets */; };
 		EE764C2619CFD5F0006709CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE764C2419CFD5F0006709CB /* LaunchScreen.xib */; };
 		EE764C3219CFD5F0006709CB /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE764C3119CFD5F0006709CB /* PostcardTests.swift */; };
+		EE764C3C19CFDD6A006709CB /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EE764C3B19CFDD6A006709CB /* SagradaFamilia.jpeg */; };
+		EE764C3E19CFDE67006709CB /* SagradaFamilia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE764C3D19CFDE67006709CB /* SagradaFamilia.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE40BC3019D0510D0010EDF4 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 		EE764C1619CFD5F0006709CB /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE764C1A19CFD5F0006709CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE764C1B19CFD5F0006709CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 		EE764C2B19CFD5F0006709CB /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE764C3019CFD5F0006709CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE764C3119CFD5F0006709CB /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		EE764C3B19CFDD6A006709CB /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		EE764C3D19CFDE67006709CB /* SagradaFamilia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 		EE764C2F19CFD5F0006709CB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EE40BC3019D0510D0010EDF4 /* AlbertEinsteinStamp.jpg */,
+				EE764C3D19CFDE67006709CB /* SagradaFamilia.jpg */,
+				EE764C3B19CFDD6A006709CB /* SagradaFamilia.jpeg */,
 				EE764C3019CFD5F0006709CB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,7 +202,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE764C2119CFD5F0006709CB /* Main.storyboard in Resources */,
+				EE764C3C19CFDD6A006709CB /* SagradaFamilia.jpeg in Resources */,
 				EE764C2619CFD5F0006709CB /* LaunchScreen.xib in Resources */,
+				EE764C3E19CFDE67006709CB /* SagradaFamilia.jpg in Resources */,
+				EE40BC3119D0510D0010EDF4 /* AlbertEinsteinStamp.jpg in Resources */,
 				EE764C2319CFD5F0006709CB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +417,7 @@
 				EE764C3719CFD5F0006709CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE764C3819CFD5F0006709CB /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				EE764C3A19CFD5F0006709CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
